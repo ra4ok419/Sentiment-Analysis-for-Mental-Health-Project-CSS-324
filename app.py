@@ -79,7 +79,7 @@ css = """
 footer { display: none !important; }
 """
 
-with gr.Blocks(css=css, theme=gr.themes.Base()) as demo:
+with gr.Blocks() as demo:
     gr.HTML("""
         <div style='text-align:center;padding:24px 0 8px'>
             <div style='font-size:40px'>🧠</div>
@@ -110,4 +110,4 @@ with gr.Blocks(css=css, theme=gr.themes.Base()) as demo:
         </div>
     """)
 
-demo.launch()
+    demo.launch(css=css, theme=gr.themes.Base(), share=True)
