@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 
 
-\# GPU (CUDA 12.4, как в оригинальной среде)
+\# GPU (CUDA 12.4)
 
 pip install torch==2.6.0+cu124 --index-url https://download.pytorch.org/whl/cu124
 
