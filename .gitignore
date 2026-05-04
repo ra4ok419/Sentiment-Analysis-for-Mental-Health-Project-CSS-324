@@ -1,0 +1,12 @@
+venv311/
+bert_checkpoints/
+catboost_info/
+saved_models/
+mental_bert_final/
+mental_bert_ft/
+*.npy
+mh_clean.csv
+mh_features.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
